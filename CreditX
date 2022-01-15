@@ -1,4 +1,7 @@
--- Made By JoshsSon#0005 
+-- hello zen members and trade tower mods and devs dont patch this pls and dont snitch :)
+-- and if u zen member use for learning or whatever
+-- if u wanna use this code for ur own tt script then credit me at least ok
+-- and its like a lot of bad code because i developed this script ever since i started making and learning about lua so if it works then it was never touched 
 
 repeat wait() until game:IsLoaded()
 -- security measure
@@ -18,7 +21,7 @@ end
 -- creds to Preston for jackpot and function and shit 
 FTS = "ZenXLibv2 - Trade Tower"
 ver = "1.0.1a"
-loadstring(game:HttpGet('https://raw.githubusercontent.com/laderite/scripts/main/loader.lua'))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/21sageyboy/Gui/main/Name'))()
 game.CoreGui:WaitForChild('loader'):WaitForChild('main'):WaitForChild('text holder'):WaitForChild('status').Text = "Welcome!"
 game.CoreGui:WaitForChild('loader'):WaitForChild('main'):WaitForChild('bars'):WaitForChild('green').Size = UDim2.new(0,0,0,0)
 local function changeStatus(status, size)
